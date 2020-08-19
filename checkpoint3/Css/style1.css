@@ -1,0 +1,462 @@
+ 
+  body{
+  
+    font-weight: 400;
+    font-family: Helvetica Neue,Helvetica,Arial,sans-serif;
+    background-color: #FFFFFF;
+    margin: 0px;
+    padding: 0px;
+}
+
+header{
+
+   display:flex;
+   flex-direction: row;
+   justify-content:space-between;
+   background-color:#FFFFFF;
+   text-align:center;  
+   position: fixed;
+   height: 90px;
+   width: 100%;
+  
+}
+
+
+.societe-logo{
+
+  width: 20%;
+  height: auto;
+  padding-top:1.5%;
+  margin-left:10%;
+  
+}
+
+img{
+
+max-width: 100%;
+height: auto;
+
+}
+
+.entete-droit{
+
+  line-height: 1.5;
+  padding-top: 0.5%;
+  padding-right: 10%;
+
+  }
+
+.entete-droit a{
+
+  justify-content: flex-end;
+  text-align: center;
+  padding: 12px;
+  text-decoration: none;
+  font-size: 18px; 
+  color:#A0A0A0;
+  line-height: 25px;
+ 
+}
+
+.entete-droit a.active{
+
+  color:#5DD6C5;
+}
+
+.entete-droitt a:hover{
+
+  color:#5DD6C5;
+}
+
+ul{
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    list-style: none;
+    margin-bottom: 5%;
+  }
+
+.ul{
+
+    display: flex;
+    flex-direction: column;
+    align-content: flex-start;
+}
+
+.list {
+
+    cursor: auto;
+    position: relative;
+    display: inline-block;
+}
+
+.list-contenus {
+
+    display: none;
+    position: absolute;
+    background-color: #f1f1f1;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    
+    right: 0;
+}
+
+.list-contenus a {
+
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+.list-contenus a:hover {
+
+  color: #5DD6C5;
+}
+
+
+
+.list:hover .list-contenus {
+
+    display: block;
+  }
+
+
+
+main{
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding-top:15%;
+  padding-bottom: 5%;
+  padding-right: 2%;
+  padding-left: 2%;
+
+}
+
+.logo{
+
+  display: flex;
+  justify-content: center;
+  
+}
+
+.title{
+
+  font-size: 20px;
+  color:#00b39b;
+  text-align:center;
+}
+
+.intro{
+
+  display: flex;
+  justify-content: space-between;
+  padding-right: 10%;
+  padding-left: 10%;
+  padding-bottom: 2%;
+}
+
+.text1{
+
+   font-weight: 400;
+   font-family: Helvetica Neue,Helvetica,Arial,sans-serif;
+   color: #747474;
+   margin-left: 2.5%;
+   line-height: 2;
+}
+
+.text2{
+
+    font-weight: 400;
+   font-family: Helvetica Neue,Helvetica,Arial,sans-serif;
+   color: #747474;
+   margin-left: 2.5%;
+   line-height: 2;
+
+}
+
+.service-carte
+{
+display: flex;
+  justify-content: space-between;
+  padding-right: 10%;
+  padding-left: 10%;
+  padding-bottom: 2%;
+flex-direction: row;
+border-radius: 10px;
+
+}
+.patient-carte{
+
+    border-radius: 10px;
+    padding-top: 1.5em;
+    padding-right: 0px;
+    padding-bottom: 0px;
+    padding-left: 2.5em;
+    margin-right: 40px; 
+ 
+    width: 50%;
+    background-color: #00ccb1;
+    
+
+}
+.doctor-carte{
+
+    border-radius: 10px;
+    padding-top: 1.5em;
+    padding-right: 0px;
+    padding-bottom: 0px;
+    padding-left: 2.5em;
+    margin-right: 40px; 
+ 
+    width: 50%;
+    background-color:#3d83df;
+   
+
+}
+.title-carte{
+
+  font-size: 14px;
+  color: hsla(0,0%,100%,.7);
+}
+.paragraphe-carte{
+font-size: 1.625em;
+  color: #fff;
+  margin-top: .3em;
+
+}
+select{
+
+  background: white;
+  border-radius: 5px;
+  border:white;
+  height: 40px;
+  width:50%;
+
+}
+.img-carte
+{
+ 
+  
+    overflow: hidden;
+    
+  
+
+}
+.img-carte img
+{
+display:flex;
+justify-content:flex-end;
+align-items:flex-end;
+ max-width:100%;
+   margin-left: 40%;
+}
+.sous-carte{
+   
+  display: flex;
+  flex-direction: row;
+  
+  justify-content: space-between;
+  padding-right: 10%;
+  padding-left: 10%;
+  padding-bottom: 2%;
+
+}
+.slogant{
+  
+  
+  font-size: 24px;
+  color:#00b39b;
+  float: left;
+  width: 33%;
+}
+.liens a{
+    
+  text-decoration: none;
+  padding: 5px;
+  font-size: 18px; 
+  color:#A0A0A0;
+ flex-wrap: wrap;
+}
+ul.liens li{
+ 
+  list-style:none;
+  display:inline-block;
+  flex-wrap: wrap;
+  margin-top: 20px;
+}
+.liens a:hover{
+  
+  color:#00CCB1;  
+}
+.section4
+{
+  background-color: #e5faf8;
+ 
+display:flex;
+  justify-content:center;
+  flex-direction:column;
+  
+  align-items: center;
+    
+ 
+  margin-top:40px;
+   margin-bottom:80px;
+}
+.text{
+  margin-top:180px;
+}
+
+.text h1{
+      font-size: 32px;
+    color: #00b39b;
+}
+
+.text p{
+  max-width: 415px;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 2;
+  color: #747474;
+}
+.section4 img
+{
+  display:flex;
+ 
+   max-width:100%;
+      
+}
+.sec5-para{
+  
+  color: #ababab;
+  line-height: 1.5;
+}
+
+.section5{
+
+  display: flex;
+ justify-content: center;
+  text-align: center;
+  
+  padding-left: 20%;
+  padding-right: 20%;
+  
+  
+  
+ 
+  background-color: #FFFFFF;
+}
+
+.sec5-title{
+  
+  color:#00b39b;
+  font-family: Helvetica Neue,Helvetica,Arial,sans-serif;
+  font-weight: 300;
+  font-size: 34px;
+  
+  line-height: 1.3;
+  padding-left:20%;
+  padding-right:20%;
+}
+.section6{
+  
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  margin-top: 2%;
+  margin-right:10%;
+  margin-left:10%;
+  margin-bottom: 80px;
+  border-radius: 5px;
+  
+}
+
+
+.section6-image:hover{
+
+  box-shadow: 10px 5px 5px #00b39b;
+}
+
+.section6-image{
+
+display:flex;
+flex-direction: column;
+justify-content: space-between;
+width: 30%;
+height:auto;
+background-color: #FFFFFF;
+
+
+}
+
+.contour{
+  display: flex;
+  justify-content: space-around;
+  
+  padding-right:2%;
+  padding-bottom:1%;
+  flex-wrap: wrap;
+  padding-left:2%;
+flex-direction: row;
+
+font-family: Helvetica Neue,Helvetica,Arial,sans-serif;
+font-weight: 400;
+}
+
+.ville{
+
+font-size: 18px;
+color:#747474;
+
+
+}
+
+.bouton{
+
+
+
+text-align: center;
+
+text-decoration: none;
+background-color:#3d83df;
+color: #fff;
+
+border: 0;
+border-radius: 4px; 
+font-size:10,4;
+line-height: 1;
+width:130px;
+height:30px;
+padding-top:10px;
+margin-top: 13px;
+
+}
+
+.bouton:hover{
+
+color: #fff;
+background: #1662C6;
+
+}
+.text-footer{
+  
+  display:flex;
+  flex-direction:column;
+  font-family: Helvetica Neue,Helvetica,Arial,sans-serif;
+  color: #747474;
+  margin:0 150px;
+  font-size: 12px;
+  color: #ababab;
+  text-align: center;
+ 
+}
+
+.text-footer a{
+
+  text-decoration: none;
+  color:#1662C6;
+}
+
